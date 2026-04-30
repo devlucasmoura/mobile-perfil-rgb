@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Ajuste de Cores</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [style.--background]="contentBgColor" class="ion-padding">
+
+  <h2>Ajuste os valores RGB</h2>
+
+  <div class="range-container">
+    <label style="color: red;">R: {{ r }}</label>
+    <input class="range-r" type="range" min="0" max="255" [(ngModel)]="r">
+  </div>
+
+  <div class="range-container">
+    <label style="color: green;">G: {{ g }}</label>
+    <input class="range-g" type="range" min="0" max="255" [(ngModel)]="g">
+  </div>
+
+  <div class="range-container">
+    <label style="color: blue;">B: {{ b }}</label>
+    <input class="range-b" type="range" min="0" max="255" [(ngModel)]="b">
+  </div>
+
+  <ion-button expand="block" (click)="mudarCorBotao()" [style.--background]="btnBgColor">
+    Mudar a cor do botão
+  </ion-button>
+
+  <ion-button expand="block" color="dark" (click)="mudarCorFundo()">
+    Mudar a cor da tela
+  </ion-button>
+
+  <ion-button expand="block" color="medium" fill="outline" class="back-button" (click)="voltar()">
+    Voltar
+  </ion-button>
+
+</ion-content>
