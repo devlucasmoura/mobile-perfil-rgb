@@ -1,4 +1,4 @@
-# avFormadoraII
+# Avaliação Formadora II
 
 Aplicativo móvel desenvolvido com **Ionic**, **Angular** e **Capacitor** para Android.
 
