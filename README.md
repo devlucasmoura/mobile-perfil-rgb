@@ -174,13 +174,10 @@ Os arquivos estarão em `android/app/build/outputs/apk/`
 3. Push para a branch (`git push origin feature/MinhaFeature`)
 4. Abra um Pull Request
 
-## 📄 Licença
+## Autor
 
-Este projeto é fornecido conforme está. Verifique o arquivo de licença para mais detalhes.
-
-## 📞 Suporte
-
-Para dúvidas ou problemas, abra uma issue no repositório.
+**Lucas da Silva de Moura**  
+Estudante de Análise e Desenvolvimento de Sistemas
 
 ---
 
